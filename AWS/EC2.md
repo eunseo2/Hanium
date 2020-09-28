@@ -1,11 +1,9 @@
 # AWS - EC2 서버 구축
 ```
-  Client - webserver - php - DB
-  
-  Client가 정보를 요청하면 웹서버는 html만 이해할 수 있으므로 php부분은 php에게 넘기고 php가 db에 정보를 요청하는 방식
+ instance-> 1  컴퓨터 한대
 ```
 
-# 문제 발생 + 해결과정
+# 문제 발생
 ```
   php와 mysql을 연결 오류 발생
   
@@ -16,5 +14,5 @@
 
 # 참고할 만한 사이트
 
-https://blog.naver.com/skrlfdud/221570215659
-ec2 한글 환경 
+https://blog.naver.com/qkrdusghks/221485076842
+https://littlemk.tistory.com/entry/AWS-Windows-Server-%EB%A7%8C%EB%93%A4%EA%B8%B0-%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4-%EC%83%9D%EC%84%B1%ED%8E%B8?category=679666
