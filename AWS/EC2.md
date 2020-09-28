@@ -16,4 +16,5 @@
 
 # 참고할 만한 사이트
 
-https://www.php.net/manual/en/mysqlinfo.api.choosing.php
+https://blog.naver.com/skrlfdud/221570215659
+ec2 한글 환경 
