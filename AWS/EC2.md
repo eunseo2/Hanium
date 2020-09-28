@@ -1,4 +1,4 @@
-# 새로배운내용
+# AWS - EC2 서버 구축
 ```
   Client - webserver - php - DB
   
