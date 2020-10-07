@@ -94,13 +94,13 @@ ec2에서 wamp 설치
 https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/WindowsGuide/install-WAMP.html - Window  wamp 설치 방법
 ```
 
-#ec2 인스턴스 생성 
+ 
 ![port](https://user-images.githubusercontent.com/70589857/95282167-d44d9100-0893-11eb-9517-a24cfc68df35.png)
 
 
 
 
-
+# ec2 인스턴스 생성
 
 ![EC2](https://user-images.githubusercontent.com/70589857/95281340-dd3d6300-0891-11eb-83aa-08954ae9ed42.PNG)
 
