@@ -89,6 +89,16 @@ Amazon Linux 2 AMI에는 이 자습서에 필요한 소프트웨어 패키지가
   
 ```
 
+```
+ec2에서 wamp 설치
+https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/WindowsGuide/install-WAMP.html - Window  wamp 설치 방법
+```
+
+
+
+
+
+
 ![EC2](https://user-images.githubusercontent.com/70589857/95281340-dd3d6300-0891-11eb-83aa-08954ae9ed42.PNG)
 
 # 참고할 만한 사이트
