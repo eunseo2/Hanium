@@ -1,0 +1,45 @@
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `park`.`timestamps` (
+  `create_time` TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP,
+  `img_path` VARCHAR(200) NOT NULL,
+  PRIMARY KEY (`img_path`));
+
+
+-- -----------------------------------------------------
+-- Table `park`.`resident`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `park`.`resident` (
+  `resident_code` INT NOT NULL AUTO_INCREMENT, 
+  `car_num` VARCHAR(20) NOT NULL,
+  `name` VARCHAR(20) NOT NULL,
+  `phone` VARCHAR(20) NOT NULL,
+  `address` TEXT NOT NULL,
+  `car_type` INT NOT NULL,
+  PRIMARY KEY (`resident_code`))
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `park`.`resident_long-term_parking`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `park`.`resident_long-term_parking` (
+  `resident_code` INT NOT NULL,
+  `car_num` VARCHAR(45) NOT NULL,
+  `total_time` INT NOT NULL,
+  PRIMARY KEY (`resident_code`))
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `park`.`manager`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `park`.`manager` (
+  `code` INT NOT NULL,
+  `pw` VARCHAR(20) NOT NULL,
+  PRIMARY KEY (`code`))
+ENGINE = InnoDB;
+
+
+SET SQL_MODE=@OLD_SQL_MODE;
+SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
+SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
