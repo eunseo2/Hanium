@@ -16,7 +16,6 @@ curs.execute(sql,val)
 
 conn.commit()
  
- 
 
 ```
 
