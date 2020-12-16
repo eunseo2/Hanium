@@ -22,3 +22,5 @@ https://futurists.tistory.com/11
 
 https://m.blog.naver.com/timeless947/221987884408
 <filezilla로 ftp접속/root계정으로 접속>
+
+### 웹 호스팅 닷홈도 있다는거 알기..!
