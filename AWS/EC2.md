@@ -19,3 +19,6 @@ https://java119.tistory.com/55
 
 DB 생성, 테이블 생성, SELECT
 https://futurists.tistory.com/11
+
+https://m.blog.naver.com/timeless947/221987884408
+<filezilla로 ftp접속/root계정으로 접속>
