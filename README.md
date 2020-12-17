@@ -46,8 +46,8 @@ https://www.youtube.com/watch?v=Ov4Ln_jivjA
   
 
 ## 구축 환경
-- 웹 서버 : Ubuntu - AWS EC2, Apache Web Server
-- 데이터베이스 : mariaDB
+- 웹 서버 : Apache Web Server
+- 데이터베이스 : Mysql
 - 프론트엔드 언어 : HTML
 - 백엔드 언어 : PHP
 
