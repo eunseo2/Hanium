@@ -89,9 +89,9 @@ https://www.youtube.com/watch?v=Ov4Ln_jivjA
 ### 사용자 웹 페이지
 <img width="1000" src="https://user-images.githubusercontent.com/70589857/102481810-9ba51180-40a5-11eb-8696-ad2349e715da.PNG">
 
-  - 프론트 페이지에서 사용자/매니저 구분 및 회원가입
-  - 사용자 로그인
-  - 사용자 페이지에서 현재 잔여 좌석 확인
+       - 프론트 페이지에서 사용자/매니저 구분 및 회원가입
+       - 사용자 로그인
+       - 사용자 페이지에서 현재 잔여 좌석 확인
 
    
 ## 역할분담
