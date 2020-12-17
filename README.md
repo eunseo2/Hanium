@@ -70,15 +70,16 @@ https://www.youtube.com/watch?v=Ov4Ln_jivjA
 
 
 #### OpenCv
-- 차량 번호 인식
+1. 차량 번호 인식
 <img width="1000" src="https://user-images.githubusercontent.com/70589857/102481552-351ff380-40a5-11eb-8cc9-ae5db504b416.png">
 
-- 장애인 차량 스티커 인식
+2. 장애인 차량 스티커 인식
 <img width="1000" src="https://user-images.githubusercontent.com/70589857/102481607-4963f080-40a5-11eb-8fac-a15cbc1fb8e6.png">
 
 
 ### 관리자 웹 페이지
 <img width="1000" src="https://user-images.githubusercontent.com/70589857/102481733-79ab8f00-40a5-11eb-84a7-333c500cc2a2.PNG">
+
     - 관리자 로그인
     - 관리자 페이지의 홈 화면
     - 주차장 실시간 확민 및 특수 구역 관리
