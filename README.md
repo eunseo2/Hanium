@@ -55,59 +55,18 @@ https://www.youtube.com/watch?v=Ov4Ln_jivjA
 
 
 ## 제공 기능
-- 각 구의 대여 반납 이용량을 시각화한 그래프 확인(한 달 기준)
-- 각 구별 자전거 포화 대여소 확인
-- 각 구별 자전거 부족 대여소 확인
-- 입력한 자전거 대여소의 자전거 대수 포화/부족 상태 확인
-- 입력한 자전거 대여소와 1km이내 범위의 가장 가까운 순으로 대여소 추천
-
-## 각 페이지 별 소개 및 이용 방법
-### 1. Index 페이지 
-   - 자전거 포화/부족 확인 화면 연결
-   - 원하는 대여소와 시간 상태 확인 화면 연결 
-<img width="600" src="https://user-images.githubusercontent.com/53183320/102006605-a38f4980-3d65-11eb-84a3-92739e018e69.PNG">
-
-
-### 2. 자전거 포화/부족 상태 확인과 구별 대여, 반납 비교 그래프
-   - 전체 대여소의 자전거 포화/부족 상태 확인
-   - 구를 입력하면 원하는 구의 포화/부족 상태 확인 가능
-   
-   ### 2-1. 포화 상태 확인. ex) 성북구 검색 시 성북구 내 대여소의 포화 상태 확인
-   <img width="600" alt="exceed" src="https://user-images.githubusercontent.com/53183320/102006609-a853fd80-3d65-11eb-8abf-97724b7d873b.PNG">
-   <img width="600" alt="exceed_gu" src="https://user-images.githubusercontent.com/53183320/102006615-ab4eee00-3d65-11eb-871b-3a9420f87803.PNG">
-   
-   ### 2-2. 부족 상태 확인. ex) 강서구 검색 시 강서구 내 대여소의 포화 상태 확인
-   <img width="600" alt="shortage" src="https://user-images.githubusercontent.com/53183320/102006623-b30e9280-3d65-11eb-955f-17548fa25e04.PNG">
-   <img width="600" alt="shortage_gu" src="https://user-images.githubusercontent.com/53183320/102006621-b1dd6580-3d65-11eb-9ec8-300bf18041b3.PNG">
-   
-   ### 2-3. 구별로 자전거 대여, 반납 개수를 한 눈에 쉽게 비교하기 위하여 막대 그래프로 표현
-   <img width="600" alt="graph" src="https://user-images.githubusercontent.com/53183320/102006630-bb66cd80-3d65-11eb-8936-169fccef0d55.PNG">
-
-##### 예외처리
-   - 텍스트(구 이름) 입력 안하고 search버튼 클릭 시 오류메시지 출력
-   <img width="200" alt="e1" src="https://user-images.githubusercontent.com/70579136/102008662-9417fc80-3d75-11eb-95c2-8af9a5f2c7e1.PNG">
-   
-   - 숫자, 영어, 기호, 초성이 하나라도 포함되어 있을 시 오류메시지 출력
-<br>(순서대로 숫자, 기호, 영어, 초성, 혼합 입력 시 화면)<br>
-<img width="200" alt="e2" src="https://user-images.githubusercontent.com/70579136/102008664-9712ed00-3d75-11eb-8c87-12ad85e092bf.PNG"><img width="200" alt="e3" src="https://user-images.githubusercontent.com/70579136/102008663-967a5680-3d75-11eb-8b8d-7514e985169d.PNG"><img width="200" alt="e4" src="https://user-images.githubusercontent.com/70579136/102008678-a003be80-3d75-11eb-9417-7ef246941fd2.PNG"><img width="200" alt="e5" src="https://user-images.githubusercontent.com/70579136/102008683-a1cd8200-3d75-11eb-8870-500571f718b0.PNG"><img width="200" alt="e6" src="https://user-images.githubusercontent.com/70579136/102008686-a42fdc00-3d75-11eb-87fe-b1e8ca17adb5.PNG">
+- OpenCV를 이용하여 차량번호 식별
+- 영상 분석 데이터를 기반으로 전기 자동차, 장애인 자동차 등록 여부 판단 및 지정 주차 구역 위반 차량 식별
+- parking, parking_area, user, manager, resident_long-term, resident table PARK DB 구축
+- R 프로그램을 이용하여 정기 거주자 차량의 시간 패턴을 분석
+- 관리자 웹 페이지 구축
+- 사용자 웹 페이지 구축
 
 
 
-### 3. 시간대별 대여소의 자전거 포화, 부족 상태 확인 및 가까운 대여소 추천 페이지 
-   - 원하는 대여소의 대여소 번호를 입력
-   <img width="600" src="https://user-images.githubusercontent.com/53183320/102007055-11894000-3d69-11eb-9f28-aa1d6624d4eb.PNG">
-   
-   - 원하는 시간대를 한 시간 단위로 선택
-  <img width="600" src="https://user-images.githubusercontent.com/53183320/102007090-59a86280-3d69-11eb-8e38-09bcf88cfadf.PNG">
-  
-   - 모든 항목을 입력하고 go 버튼을 클릭
-   <img width="600" src="https://user-images.githubusercontent.com/70579136/102007369-e3f1c600-3d6b-11eb-93e8-52492358f1bb.PNG">
-   
-   1) 선택한 시간대 확인<br>
-   2) 입력한 대여소의 대여소 명 확인<br>
-   3) 입력한 대여소의 자전거 포화, 부족 상태 확인<br>
-   4) 입력한 대여소와 일정 거리 내에 있는 대여소가 가장 가까운 5개의 대여소 출력<br>
-   5) 클릭 시 index.php 페이지로 이동
+
+
+
    
 ##### 예외처리
    - 대여소번호 입력 안하고 GO 버튼 클릭 시 오류메시지 출력
