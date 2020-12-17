@@ -63,14 +63,10 @@ https://www.youtube.com/watch?v=Ov4Ln_jivjA
 - 사용자 웹 페이지 구축
 
 
-
-
-
-
    
-##### 예외처리
-   - 대여소번호 입력 안하고 GO 버튼 클릭 시 오류메시지 출력
-<img width="200" src="https://user-images.githubusercontent.com/70579136/101985840-bd7d4d80-3ccd-11eb-9234-8c08d429ac53.PNG">
+##### 서비스 흐름도
+
+<img width="200" src="https://user-images.githubusercontent.com/70589857/102481201-bf1b8c80-40a4-11eb-8c90-8bd7fa5bb301.png">
    
    - 대여소 번호에 숫자외의 값이 들어가면 오류메시지 출력 (순서대로 한글, 영어, 기호 입력 시 화면)
 
