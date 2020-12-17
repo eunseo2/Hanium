@@ -67,17 +67,31 @@ https://www.youtube.com/watch?v=Ov4Ln_jivjA
 ##### 서비스 흐름도
 
 <img width="1000" src="https://user-images.githubusercontent.com/70589857/102481201-bf1b8c80-40a4-11eb-8c90-8bd7fa5bb301.png">
-   
-   - 대여소 번호에 숫자외의 값이 들어가면 오류메시지 출력 (순서대로 한글, 영어, 기호 입력 시 화면)
 
-<img width="200" src="https://user-images.githubusercontent.com/70579136/101985854-cbcb6980-3ccd-11eb-82c8-f2506a16e0a6.PNG"><img width="200" src="https://user-images.githubusercontent.com/70579136/101985856-d1c14a80-3ccd-11eb-9152-3938b25a9e58.PNG"><img width="200" src="https://user-images.githubusercontent.com/70579136/101985855-d0901d80-3ccd-11eb-99be-313514a53ed6.PNG"> 
-   
-   - 시간대 선택 안하고 GO 버튼 클릭 시 오류메시지 출력
-<img width="200" src="https://user-images.githubusercontent.com/70579136/101985844-c110d480-3ccd-11eb-820f-abc8f541db10.PNG">   
-   
-   - 없는 대여소번호를 입력하거나 대여기록이 없는 대여소번호 입력 시 오류페이지로 이동
-<img width="500" src="https://user-images.githubusercontent.com/70579136/101985858-d554d180-3ccd-11eb-91a3-6dd723c77352.PNG">
 
+##### OpenCv
+- 차량 번호 인식
+<img width="1000" src="https://user-images.githubusercontent.com/70589857/102481552-351ff380-40a5-11eb-8cc9-ae5db504b416.png">
+
+- 장애인 차량 스티커 인식
+<img width="1000" src="https://user-images.githubusercontent.com/70589857/102481607-4963f080-40a5-11eb-8fac-a15cbc1fb8e6.png">
+
+
+### 관리자 웹 페이지
+<img width="1000" src="https://user-images.githubusercontent.com/70589857/102481733-79ab8f00-40a5-11eb-84a7-333c500cc2a2.PNG">
+  1) 관리자 로그인
+  2) 관리자 페이지의 홈 화면
+    1) 주차장 실시간 확민 및 특수 구역 관리
+    2) 차량 번호 조회를 통한 거주자의 정보 확인
+    3) 장기 주차 차량 조회 및 출차 유도를 통한 관리
+### 사용자 웹 페이지
+<img width="1000" src="https://user-images.githubusercontent.com/70589857/102481810-9ba51180-40a5-11eb-8696-ad2349e715da.PNG">
+
+  1) 프론트 페이지에서 사용자/매니저 구분 및 회원가입
+  2) 사용자 로그인
+  3) 사용자 페이지에서 현재 잔여 좌석 확인
+
+   
 
 ## 역할분담
 
