@@ -96,7 +96,7 @@ https://www.youtube.com/watch?v=Ov4Ln_jivjA
    
 ## 역할분담
 
- - 김은서 : AWS EC2, manager web, DB 
+ - 김은서 : OpenCV, DB, AWS EC2, manager web 
  - 김보연 : R, AWS S3 , web css
  - 이소윤 : OpenCV,  AWS S3 , web css
  - 홍민아 : AWS EC2, user web
